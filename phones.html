@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="w3s.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <Link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <style>
+        .w3-sidebar a {
+            font-family: "Roboto", sans-serif
+        }
+        
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        .w3-wide {
+            font-family: "Montserrat", sans-serif;
+        }
+    </style>
+    <title>Phones</title>
+</head>
+
+<body>
+    <!-- Top menu on small screens -->
+    <header class="w3-bar w3-top w3-black w3-xlarge">
+        <a href="index.html">
+            <div class="w3-bar-item w3-padding-24 w3-wide"><img src="liam_ng_2.png" id="home-logo"></div>
+        </a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars menu-icon"></i></a>
+    </header>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:250px">
+
+        <!-- Push down content on small screens -->
+        <div class="w3-hide-large" style="margin-top:83px"></div>
+
+        <nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px;" id="mySidebar ">
+            <div class="w3-container w3-display-container w3-padding-16 ">
+                <i onclick="w3_close() " class="fa fa-remove w3-hide-large w3-button w3-display-topright "></i>
+                <h3 class="w3-wide "><img id="menu-logo " src="liam_ng_3.png " alt="liam.ng "></h3>
+            </div>
+            <div class="w3-padding-64 w3-large w3-text-grey " style="font-weight:bold ">
+                <a href="phones.html " class="w3-bar-item w3-button ">Phones</a>
+                <a href="Tablets.html " class="w3-bar-item w3-button ">Tablets</a>
+                <!-- onclick="myAccFunc() " href="javascript:void(0) "  -->
+                <a href="laptops.html " class="w3-button w3-block w3-left-align " id="myBtn ">
+					Laptops 
+					<!-- <i class="fa fa-caret-down "></i> -->
+				</a>
+                <!-- <div id="demoAcc " class="w3-bar-block w3-hide w3-padding-large w3-medium ">
+					<a href="#apple " class="w3-bar-item w3-button w3-light-grey "><i class="fa fa-caret-right w3-margin-right "></i>Apple</a>
+					<a href="#samsung " class="w3-bar-item w3-button ">Samsung</a>
+					 <a href="# " class="w3-bar-item w3-button ">Bootcut</a>
+					<a href="# " class="w3-bar-item w3-button ">Straight</a> 
+				</div> -->
+                <a href="Earphones.html " class="w3-bar-item w3-button ">Earphones</a>
+                <!-- <a href="# " class="w3-bar-item w3-button "></a>
+				<a href="# " class="w3-bar-item w3-button "></a>
+				<a href="# " class="w3-bar-item w3-button "></a> -->
+            </div>
+            <a href="#footer " class="w3-bar-item w3-button w3-padding ">Contact</a>
+            <a href="javascript:void(0) " class="w3-bar-item w3-button w3-padding " onclick="document.getElementById( 'newsletter').style.display='block' ">Newsletter</a>
+            <a href="#subscribe " class="w3-bar-item w3-button w3-padding ">Subscribe</a>
+        </nav>
+
+
+
+        <header class="w3-container w3-xlarge ">
+            <p class="w3-left "><strong>Phones</strong></p>
+            <p class="w3-right " id="p-search ">
+                <i class="fa fa-search " id="search-icon "></i>
+            </p>
+        </header>
+
+        <div class="content ">
+            <div class="w3-row ">
+                <div class="w3-col l3 s6 ">
+                    <div class="w3-container item ">
+                        <img src="iphone-6.jpg " style="width:100% ">
+                        <!-- <span class="w3-tag w3-display-topleft ">New</span> -->
+                        <p><strong>Iphone-5</strong><br><b>&#8358; 75,000</b><br>
+                            <a href="https://wa.me/23409080277467?text=Hi,%20I 'm%20interested%20in%20this%20item">Click to chat <img src="whatsappicon.jpeg" style="width:30px; height:auto"></a></p>
+                    </div>
+                    <div class="w3-container item">
+                        <img src="iphone-6.jpg" style="width:100%">
+                        <!-- <span class="w3-tag w3-display-topleft">New</span> -->
+                        <p><strong>Iphone-6</strong><br><b>&#8358; 75,000</b><br>
+                            <a href="https://wa.me/23409080277467?text=Hi,%20I'm%20interested%20in%20this%20item ">Click to chat <img src="whatsappicon.jpeg " style="width:30px; height:auto "></a></p>
+                    </div>
+                </div>
+
+                <div class="w3-col l3 s6 ">
+                    <div class="w3-container item ">
+                        <div class="w3-display-container ">
+                            <img src="iphone-6.jpg " style="width:100% ">
+                            <!-- <span class="w3-tag w3-display-topleft ">New</span> -->
+                            <div class="w3-display-middle w3-display-hover ">
+                                <!-- <button class="w3-button w3-black ">Buy now <i class="fa fa-shopping-cart "></i></button> -->
+                            </div>
+                        </div>
+                        <p><strong>Iphone-6</strong><br><b>&#8358; 75,000</b><br>
+                            <a href="https://wa.me/23409080277467?text=Hi,%20I 'm%20interested%20in%20this%20item">Click to chat <img src="whatsappicon.jpeg" style="width:30px; height:auto"></a></p>
+                    </div>
+                    <div class="w3-container item">
+                        <img src="iphone-6.jpg" style="width:100%">
+                        <!-- <span class="w3-tag w3-display-topleft">New</span> -->
+                        <p><strong>Iphone-6</strong><br><b>&#8358; 75,000</b><br>
+                            <a href="https://wa.me/23409080277467?text=Hi,%20I'm%20interested%20in%20this%20item ">Click to chat <img src="whatsappicon.jpeg " style="width:30px; height:auto "></a></p>
+                    </div>
+                </div>
+
+                <div class="w3-col l3 s6 ">
+                    <div class="w3-container item ">
+                        <div class="w3-display-container ">
+                            <img src="iphone-6.jpg " style="width:100% ">
+                            <!-- <span class="w3-tag w3-display-topleft ">New</span> -->
+                            <!-- <div class="w3-display-middle w3-display-hover ">
+					<button class="w3-button w3-black ">Buy now <i class="fa fa-shopping-cart "></i></button>
+				</div> -->
+                            <div class="w3-container ">
+                                <!-- <span class="w3-tag w3-display-topleft ">New</span> -->
+                                <p><strong>Iphone-6</strong><br><b>&#8358; 75,000</b><br>
+                                    <a href="https://wa.me/23409080277467?text=Hi,%20I 'm%20interested%20in%20this%20item">Click to chat <img src="whatsappicon.jpeg" style="width:30px; height:auto"></a></p>
+                            </div>
+                        </div>
+                        <!-- <p>Vintage Skinny Jeans<br><b class="w3-text-red">$14.99</b></p> -->
+                    </div>
+                </div>
+
+                <div class="w3-col l3 s6">
+                    <div class="w3-container item">
+                        <img src="iphone-6.jpg" style="width:100%">
+                        <!-- <span class="w3-tag w3-display-topleft">New</span> -->
+                        <p><strong>Iphone-6</strong><br><b>&#8358; 75,000</b><br>
+                            <a href="https://wa.me/23409080277467?text=Hi,%20I'm%20interested%20in%20this%20item ">Click to chat <img src="whatsappicon.jpeg " style="width:30px; height:auto "></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="w3-black w3-center w3-padding-24 "><a title="liam ng ">&#169; 2020 liam ng</a></div>
+
+        <script>
+            // Accordion 
+            function myAccFunc() {
+                var x = document.getElementById("demoAcc ");
+                if (x.className.indexOf("w3-show ") == -1) {
+                    x.className += " w3-show ";
+                } else {
+                    x.className = x.className.replace(" w3-show ", " ");
+                }
+            }
+
+            // Click on the "Phones " link on page load to open the accordion for demo purposes
+            // document.getElementById("myBtn ").click();
+
+
+            // Open and close sidebar
+            function w3_open() {
+                document.getElementById("mySidebar ").style.display = "block ";
+                document.getElementById("myOverlay ").style.display = "block ";
+            }
+
+            function w3_close() {
+                document.getElementById("mySidebar ").style.display = "none ";
+                document.getElementById("myOverlay ").style.display = "none ";
+            }
+        </script>
+        <script type="text/Javascript " src="script.js ">
+        </script>
+</body>
+
+</html>
